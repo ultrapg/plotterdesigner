@@ -16,10 +16,6 @@ A real-time vector plotter designer built with Rust and egui. Create, manipulate
 - **Keyboard shortcuts** — Delete/Backspace, arrow keys (×10 with Shift), Ctrl+D duplicate
 - **Project save/open** — serialized `.pdp` format via RON
 
-## Screenshots
-
-*(Add screenshots here)*
-
 ## Usage
 
 ```
