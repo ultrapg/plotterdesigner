@@ -1,0 +1,18 @@
+[package]
+name = "plotterdesigner"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = { version = "0.34", default-features = false, features = ["glow", "persistence", "default_fonts", "wayland", "x11"] }
+egui = "0.34"
+kurbo = { version = "0.13", features = ["serde"] }
+uuid = { version = "1", features = ["v4"] }
+rand = "0.9"
+serde = { version = "1", features = ["derive"] }
+ron = "0.8"
+usvg = "0.47"
+svg = "0.18"
+voronoice = "0.2"
+rfd = "0.17"
+ttf-parser = "0.21"

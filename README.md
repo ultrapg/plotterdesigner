@@ -1,8 +1,7 @@
-# plotterdesigner
+# Plotter Designer
 
 A real-time vector plotter designer built with Rust and egui. Create, manipulate, and export layered SVG files optimized for pen plotters.
 
----
 ## Features
 
 - **Parametric generators** — Spirograph, L-System, Voronoi, Wave, Grid, Honeycomb, Spiral
@@ -60,7 +59,7 @@ cargo run --release
 ### Platform Notes
 
 - **Raspberry Pi (V3D GPU)**: Uses Glow (OpenGL) renderer — WGPU is incompatible with V3D's 4-color-attachment limit
-- **Linux**: Tested on aarch64 (Raspberry Pi 5)
+- **Linux**: Tested on aarch64 (Raspberry Pi 5) and x86_64
 - **Wayland/X11**: Both supported
 
 ## Architecture
@@ -113,4 +112,4 @@ src/
 
 ## License
 
-GNU General Public License v3.0
+MIT
