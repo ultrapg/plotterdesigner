@@ -1,4 +1,4 @@
-# Plotter Designer
+# plotterdesigner
 
 A real-time vector plotter designer built with Rust and egui. Create, manipulate, and export layered SVG files optimized for pen plotters.
 
@@ -112,4 +112,4 @@ src/
 
 ## License
 
-MIT
+GNU General Public License v3.0
